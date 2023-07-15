@@ -6,6 +6,6 @@ export class AppService {
   constructor(private readonly httpService: HttpService) {}
 
   getHello() {
-    return { status: 'All services running' };
+    return { status: 'bap service is running' };
   }
 }

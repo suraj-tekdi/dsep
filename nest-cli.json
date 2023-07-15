@@ -44,6 +44,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/bpp/tsconfig.app.json"
       }
+    },
+    "bpp-fln": {
+      "type": "application",
+      "root": "apps/bpp-fln",
+      "entryFile": "main",
+      "sourceRoot": "apps/bpp-fln/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/bpp-fln/tsconfig.app.json"
+      }
     }
   }
 }

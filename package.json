@@ -11,7 +11,7 @@
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
-    "start:all": "concurrently \"yarn start:dev bap\" \"yarn start:dev bg\" \"yarn start:dev bpp\" ",
+    "start:all": "concurrently \"yarn start:dev bap\" \"yarn start:dev bg\" \"yarn start:dev bpp\" \"yarn start:dev bpp-fln\" ",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
